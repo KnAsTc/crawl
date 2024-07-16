@@ -55,7 +55,8 @@ while(True):
   #BS4
   sp = BeautifulSoup(html.text, 'html5lib')
 
-  #打開文件
+  #打開文件 必備
+  #聯合新聞網 圖片
   try:
    document = Document('聯合新聞網TEST.docx')
   except:
